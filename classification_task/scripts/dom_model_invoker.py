@@ -1,7 +1,7 @@
 import pickle
 
 
-FILE_DOM = 'classification_task\models\logr_domain_classification_OS_90.sav'
+FILE_DOM = 'DEMO/classification_task/models/logr_domain_classification_OS_90.sav'
 DOM_MODEL = pickle.load(open(FILE_DOM, 'rb'))
 
 
